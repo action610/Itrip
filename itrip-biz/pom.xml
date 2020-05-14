@@ -2,15 +2,17 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<!--    父项目-->
     <parent>
         <artifactId>Itrip</artifactId>
         <groupId>cn.itrip</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+<!--模块坐标-->
     <groupId>cn.itrip</groupId>
     <artifactId>itrip-biz</artifactId>
+<!--    项目包类型-->
     <packaging>war</packaging>
 
     <name>itrip-biz Maven Webapp</name>
@@ -22,7 +24,7 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
-
+<!--依赖关系-->
     <dependencies>
         <dependency>
             <groupId>cn.itrip</groupId>
