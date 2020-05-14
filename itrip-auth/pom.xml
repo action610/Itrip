@@ -2,6 +2,8 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+<!--    父项目-->
     <parent>
         <artifactId>Itrip</artifactId>
         <groupId>cn.itrip</groupId>
@@ -11,6 +13,7 @@
 
     <groupId>cn.itrip</groupId>
     <artifactId>itrip-auth</artifactId>
+<!--    web项目包结构为war-->
     <packaging>war</packaging>
 
     <name>itrip-auth Maven Webapp</name>
@@ -18,11 +21,13 @@
     <url>http://www.example.com</url>
 
     <properties>
+<!--        编码类型-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<!--        maven版本-->
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
-
+<!--与其它项目之间的依赖关系-->
     <dependencies>
         <dependency>
             <groupId>cn.itrip</groupId>
